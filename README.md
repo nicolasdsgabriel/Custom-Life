@@ -1,5 +1,5 @@
 # Custom-Life
- Projeto de website para exibição de motos do tipo "Custom"
+ Projeto de website para exibição de motos do tipo "Custom" </br>
  O intuito do projeto é criar um site base para testes e ampla utilização do JavaScript.
 
  # Ferramentas/Tecnologias
