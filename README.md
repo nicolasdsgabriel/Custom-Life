@@ -1,7 +1,7 @@
 # Custom-Life
- Projeto de website para exibição de motos do tipo "Custom" </br>
- O intuito do projeto é criar um site base para testes e ampla utilização do JavaScript.
+ Website project to display custom motorcycles </br>
+ The aim of the project is to create a base site for testing and extensive use of JavaScript.
 
- # Ferramentas/Tecnologias
+ # Tools
 
  <img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" /> <img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" /> <img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
