@@ -230,14 +230,14 @@ section {
         }
 
         & .active {
-            transform: translateX(0);
+            transform: translateX(0); /*o item active fica em zero no eixo X para se manter na tela até que o usuário ative o botão e troque*/
             transition: 0.5s;
             opacity: 1;
 
             & .motocycle-image{
 
                 & img{
-                    transform: rotate(+20deg);
+                    transform: rotate(+15deg);
                 }
             }
 
