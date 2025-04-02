@@ -9,24 +9,30 @@ let active = 0;
 let firstPosition = 0;
 let lastPosition = items.length - 1;
 
-nextButton.onclick = () => { //arrow functions allow us to write shorter function syntax
+function slider() {
+
     let prevItem = container.querySelector('.list .item.active'); //item active selection
     prevItem.classList.remove('active');
 
-    //if (active + 1 > lastPosition) {
-    //    active = 0;
-    //} else {
-    //    active + 1;
-    //}
+    let prevDot = indicator.querySelector('ul li.active');
+    prevDot.classList.remove('active');
+    dots[active].classList.add('active');
 
-    active = active + 1 > lastPosition ? 0 : active + 1;
-    items[active].classList.add('active');
+    indicator.querySelector('.number').innerHTML = '0' + (active + 1);
+
 }
 
+nextButton.onclick = () => { //arrow functions allow us to write shorter function syntax
+
+    active = active + 1 > lastPosition ? 0 : active + 1; 
+    slider(); //function that selects the active items and makes the exchange 
+    items[active].classList.add('active');
+} 
+
 prevButton.onclick = () => {
-    let prevItem = container.querySelector('.list .item.active');    
-    prevItem.classList.remove('active');
 
     active = active - 1 < firstPosition ? lastPosition : active - 1;
+    slider(); //function that selects the active items and makes the exchange
     items[active].classList.add('active');
+
 }

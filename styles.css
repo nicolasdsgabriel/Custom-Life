@@ -138,11 +138,12 @@ section {
                 background-color: #cccccc;
                 border-radius: 5px;
                 transition: 0.5s;
+
+                &.active {
+                    background-color: orange;
+                }
             }
 
-            &.active {
-                background-color: #cccccc;
-            }
         }
     }
 
